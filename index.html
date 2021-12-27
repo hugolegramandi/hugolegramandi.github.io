@@ -1,53 +1,48 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="UTF-8">
-		<title>Hugo Legramandi</title>
+<html lang="pt-BR">
+<head>
+  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="HUGO LEGRAMANDI, Engenheiro, Professor de Robótica, Desenvolvedor Full Stack">
 
-		<link rel="stylesheet" href="reset.css">
-		<link rel="stylesheet" href="produtos.css">
-	</head>
-	<body>
-		<header>
-			<div class="caixa">
-				<h1><img src="logo.png"></h1>
+    <link href="style.css" rel="stylesheet">
 
-				<nav>
-					<ul>
-						<li><a href="index.html">Home</a></li>
-						<li><a href="produtos.html">Produtos</a></li>
-						<li><a href="contato.html">Contato</a></li>
-					</ul>
-				</nav>
-			</div>
-		</header>
+    <title>Hugo Legramandi</title>
 
-		<main>
-			<ul class="produtos">
-				<li>
-					<h2>Cabelo</h2>
-					<img src="cabelo.jpg">
-					<p class="produto-descricao">Na tesoura ou máquina, como o cliente preferir</p>
-					<p class="produto-preco">R$ 25,00</p>
-				</li>
-				<li>
-					<h2>Barba</h2>
-					<img src="barba.jpg">
-					<p class="produto-descricao">Corte e desenho profissional de barba</p>
-					<p class="produto-preco">R$ 18,00</p>
-				</li>
-				<li>
-					<h2>Cabelo + Barba</h2>
-					<img src="cabelo+barba.jpg">
-					<p class="produto-descricao">Pacote completo de cabelo e barba</p>
-					<p class="produto-preco">R$ 35,00</p>
-				</li>
-			</ul>
-		</main>
+</head>
+<body>
+    <header class="cabecalho">
+        <img class="cabecalho-imagem" src="legramandi.svg" alt="logo hugo legramandi">
+        <nav class="cabecalho-nav">
+            <a class="cabecalho-nav-a">Home</a>
+            <a class="cabecalho-nav-a">Projetos</a>
+            <a class="cabecalho-nav-a">Sobre mim</a>
+            <a class="cabecalho-nav-a">Contato</a>
+        </nav>
+    </header>
 
-		<footer>
-			<img src="logo-branco.png">
-			<p class="copyright">&copy; Copyright Barbearia Alura - 2019</p>
-		</footer>
-	</body>
+    <main class="conteudo" >
+        <section class="conteudo-principal">
+            <div class="conteudo-principal-escrito">
+                <h1 class="conteudo-principal-escrito-titulo">Hugo Legramandi</h1>
+                <h2 class="conteudo-principal-escrito-subtitulo">Desenvolvedor Web Full Stack</h2>
+                <button class="conteudo-principal-escrito-botao">Github</button>
+            </div>    
+            <img class="conteudo-principal-imagem" src="hugo.png">
+        </section>
+        <section class="conteudo-secundario">
+            <h3 class="conteudo-secundario-titulo">RESUMO</h3>
+            <p class="conteudo-secundario-info">||| <strong>eng</strong>@unilinsoficial</p>
+            <p class="conteudo-secundario-info">||| <strong>full stack dev</strong>@resilia.br</p>
+            <p class="conteudo-secundario-info">||| pós <strong>eng off-site</strong>@itiebrazil</p>
+            <p class="conteudo-secundario-info">||| café & tech por favor.</p>
+        </section>        
+
+    </main>
+
+    <footer class="rodape">
+        <img class="rodape-imagem" src="legramandi.svg" alt="logo hugo legramando">
+    </footer>   
+</body>
 </html>

@@ -1,48 +1,119 @@
-#banner {
-	width:100%;
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Hurricane&family=Neuton:wght@200&family=Permanent+Marker&family=Playfair+Display+SC&family=Roboto:wght@100&family=Rock+Salt&family=Six+Caps&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
 }
 
-.principal{
-	background: #CCCCCC;
-	padding: 30px;
+body{
+    font-size: 100%;
+    background: linear-gradient(215deg, #5C677D 0%, #023E7D 100%);
 }
 
-.titulo-principal {
-	padding-left: 20px;
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
 }
 
-.titulo-centralizado {
-	text-align: center
+.cabecalho-imagem{
+    height: 90px;
+    padding: 24px;
 }
 
-p {
-	text-align: center;
+.cabecalho-nav{
+    display: flex;
+    gap: 32px;
 }
 
-#missao {
-	font-size: 20px
+.cabecalho-nav-a{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 32px;
+    color: #FFFFFF;
 }
 
-em strong {
-	color: #FF0000;
+.conteudo{
+    border-top: #FFFFFF 2px solid;
 }
 
-.itens {
-	font-style: italic
+.conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
 }
 
-.beneficios {
-	background: #FFFFFF;
-	padding: 20px;
+.conteudo-principal-escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding-left: 32px;
 }
 
-ul {
-	display: inline-block;
-	vertical-align: top;
-	width: 20%;
-	margin-right: 15%;
+.conteudo-principal-escrito-titulo{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 64px;
+    color: #FFFFFF;
 }
 
-.imagembeneficios {
-	width: 50%;
+.conteudo-principal-escrito-subtitulo{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 32px;
+    color: #FFFFFF;
+}
+
+.conteudo-principal-escrito-botao{
+    background-color: #FFFFFF;
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 32px;
+    color: #000000;
+}
+
+.conteudo-principal-escrito-botao:hover{
+    background-color: #5C677D;
+
+}
+
+.conteudo-principal-imagem{
+
+}
+
+.conteudo-secundario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 42px;
+    margin-top: 48px;
+    padding-bottom: 48px;
+}
+
+.conteudo-secundario-titulo{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 32px;
+    color: #FFFFFF;
+}
+
+.conteudo-secundario-info{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 32px;
+    color: #FFFFFF;
+}
+
+.rodape{
+    border-top: #FFFFFF 2px solid;
+    padding: 36px;
+}
+    
+.rodape-imagem{
+    width: 500px;
+    display: block;
+    margin: 0 auto;
 }
