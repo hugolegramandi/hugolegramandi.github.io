@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Hurricane&family=Neuton:wght@200&family=Permanent+Marker&family=Playfair+Display+SC&family=Roboto:wght@100&family=Rock+Salt&family=Six+Caps&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Hurricane&family=Neuton:wght@200&family=Permanent+Marker&family=Quicksand&family=Roboto:wght@100&family=Rock+Salt&display=swap');
 
 *{
     margin: 0;
@@ -9,7 +9,7 @@
 
 body{
     font-size: 100%;
-    background: linear-gradient(215deg, #5C677D 0%, #023E7D 100%);
+    background: linear-gradient(180deg, #0466C8 0%, #0353A4 0.01%, #023E7D 0.02%, #002855 0.03%, #001845 0.04%, #001233 0.45%, #33415C 32.04%, #7D8597 69.89%, #979DAC 99.99%, #5C677D 100%);
 }
 
 .cabecalho{
@@ -30,13 +30,14 @@ body{
 }
 
 .cabecalho-nav-a{
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Quicksand', sans-serif;
     font-size: 32px;
     color: #FFFFFF;
 }
 
 .conteudo{
     border-top: #FFFFFF 2px solid;
+    padding-top: 32px;
 }
 
 .conteudo-principal{
@@ -49,19 +50,20 @@ body{
 .conteudo-principal-escrito{
     display: flex;
     flex-direction: column;
+    max-width: 500px;
     gap: 32px;
     padding-left: 32px;
 }
 
 .conteudo-principal-escrito-titulo{
-    font-family: 'Bebas Neue', cursive;
-    font-size: 64px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 32px;
     color: #FFFFFF;
 }
 
 .conteudo-principal-escrito-subtitulo{
-    font-family: 'Bebas Neue', cursive;
-    font-size: 32px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
     color: #FFFFFF;
 }
 
@@ -72,7 +74,7 @@ body{
     border: none;
     box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Quicksand', sans-serif;
     font-size: 32px;
     color: #000000;
 }
@@ -96,13 +98,13 @@ body{
 }
 
 .conteudo-secundario-titulo{
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Quicksand', sans-serif;
     font-size: 32px;
     color: #FFFFFF;
 }
 
 .conteudo-secundario-info{
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Quicksand', sans-serif;
     font-size: 32px;
     color: #FFFFFF;
 }
