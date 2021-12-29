@@ -9,7 +9,7 @@
 
 body{
     font-size: 100%;
-    background: linear-gradient(180deg, #0466C8 0%, #0353A4 0.01%, #023E7D 0.02%, #002855 0.03%, #001845 0.04%, #001233 0.45%, #33415C 32.04%, #7D8597 69.89%, #979DAC 99.99%, #5C677D 100%);
+    background-image: linear-gradient(to right bottom, #006ba5, #0074a9, #007cab, #0084ae, #008caf, #0093b0, #009ab1, #00a1b0, #00a9af, #00b0ab, #00b7a5, #00be9d);
 }
 
 .cabecalho{
