@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Hurricane&family=Neuton:wght@200&family=Permanent+Marker&family=Quicksand&family=Roboto:wght@100&family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&display=swap');
 
 *{
     margin: 0;
@@ -29,13 +29,13 @@ body{
 }
 
 .cabecalho-nav-a{
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 32px;
-    color: #FFFFFF;
+    color: #000000;
 }
 
 .conteudo{
-    border-top: #FFFFFF 2px solid;
+    border-top: #000000 2px solid;
     padding-top: 32px;
 }
 
@@ -55,25 +55,25 @@ body{
 }
 
 .conteudo-principal-escrito-titulo{
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 32px;
-    color: #FFFFFF;
+    color: #000000;
 }
 
 .conteudo-principal-escrito-subtitulo{
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 18px;
-    color: #FFFFFF;
+    color: #000000;
 }
 
 .conteudo-principal-escrito-botao{
-    background-color: #FFFFFF;
+    background-color: #000000;
     width: 180px;
     height: 60px;
     border: none;
     box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 32px;
     color: #000000;
 }
@@ -105,11 +105,11 @@ body{
 .conteudo-secundario-info{
     font-family: 'Quicksand', sans-serif;
     font-size: 32px;
-    color: #FFFFFF;
+    color: #000000;
 }
 
 .rodape{
-    border-top: #FFFFFF 2px solid;
+    border-top: #000000 2px solid;
     padding: 36px;
 }
     
