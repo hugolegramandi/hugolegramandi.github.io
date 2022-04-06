@@ -20,7 +20,7 @@ body{
 
 .cabecalho-imagem{
     height: 90px;
-    padding: 24px;
+    padding: 12px;
 }
 
 .cabecalho-nav{
@@ -30,12 +30,11 @@ body{
 
 .cabecalho-nav-a{
     font-family: 'Montserrat', sans-serif;
-    font-size: 32px;
+    font-size: 22px;
     color: #000000;
 }
 
 .conteudo{
-    border-top: #000000 2px solid;
     padding-top: 32px;
 }
 
@@ -56,26 +55,28 @@ body{
 
 .conteudo-principal-escrito-titulo{
     font-family: 'Montserrat', sans-serif;
-    font-size: 32px;
+    font-size: 56px;
+    font-weight: 600;
     color: #000000;
 }
 
 .conteudo-principal-escrito-subtitulo{
     font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
+    font-weight: 300;
+    font-size: 30px;
     color: #000000;
 }
 
 .conteudo-principal-escrito-botao{
-    background-color: #000000;
-    width: 180px;
+    background-color: #31165B;
+    width: 360px;
     height: 60px;
     border: none;
     box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
     font-family: 'Montserrat', sans-serif;
     font-size: 32px;
-    color: #000000;
+    color: #FFFFFF;
 }
 
 .conteudo-principal-escrito-botao:hover{
@@ -84,7 +85,7 @@ body{
 }
 
 .conteudo-principal-imagem{
-
+    height: 70vh;
 }
 
 .conteudo-secundario{
@@ -104,12 +105,11 @@ body{
 
 .conteudo-secundario-info{
     font-family: 'Quicksand', sans-serif;
-    font-size: 32px;
+    font-size: 22px;
     color: #000000;
 }
 
 .rodape{
-    border-top: #000000 2px solid;
     padding: 36px;
 }
     
