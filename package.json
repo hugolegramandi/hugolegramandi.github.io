@@ -1,0 +1,23 @@
+{
+  "name": "hugolegramandi.github.io",
+  "version": "1.0.0",
+  "description": "https://hugolegramandi.github.io/",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hugolegramandi/hugolegramandi.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hugolegramandi/hugolegramandi.github.io/issues"
+  },
+  "homepage": "https://github.com/hugolegramandi/hugolegramandi.github.io#readme",
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "fetch": "^1.1.0"
+  }
+}
